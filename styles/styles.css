@@ -1,0 +1,474 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+h1, h3, p {
+    margin: 0;
+}
+
+.reset {
+    font-size: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+#wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* Main Code */
+
+.main-section {
+    background: #292c34;
+    padding-top: 15px;
+    height: 550px;
+    position: relative;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-section {
+    flex: 1;
+}
+
+.logo-section a {
+    display: block;
+}
+
+.navbar-section {
+    margin-top: 10px;
+    flex: 1;
+}
+
+.navbar-section ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-section ul li {
+    margin-right: 30px;
+}
+
+.navbar-section ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar-section ul li a {
+    font-size: 13pt;
+    color: #fff;
+    display: block;
+    font-weight: 300;
+}
+
+.main-section .content-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.main-section .content-box {
+    text-align: center;
+    font-size: 28pt;
+    font-weight: 300;
+}
+
+.main-section .content-box p {
+    font-size: 32pt;
+    color: #fff;
+    line-height: 50pt;
+}
+
+.main-section .content-box p span {
+    display: block;
+}
+
+.main-section .down-arrow {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    text-align: center;
+}
+
+.main-section .down-arrow a {
+    display: inline-block;
+}
+
+.main-section .down-arrow img {
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.features-section ul {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.features-section ul li {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: 45px 65px 40px 65px;
+}
+.features-section ul li.box-one {
+    background: #345363;
+}
+
+.features-section ul li.box-two {
+    background: #2a2d3c;
+}
+
+.features-section ul li.box-three {
+    background: #555f5e;
+}
+
+.features-section ul li img {
+    margin: 0 auto;
+}
+
+.features-section ul li p {
+    font-size: 15pt;
+    color: #fff;
+    font-weight: 300;
+    line-height: 22pt;
+    margin: 45px 0px 10px 0px;
+}
+
+.features-section ul li h3 {
+    font-size: 11pt;
+    color: #28ea89;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.services-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services-section .service-box,
+.services-section .service-image {
+    padding: 35px 0px;
+}
+
+.services-section .service-box {
+    flex: 1;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.services-section .service-image {
+    flex: 1;
+    background: #292c34;
+}
+
+.services-section .service-box p {
+    font-size: 15pt;
+    color: #999999;
+    line-height: 20pt;
+}
+
+.services-section .service-box .service-list {
+    width: 50%;
+    margin-right: 70px;
+}
+
+.services-section .service-box .service-list ul {
+    padding: 20px 0px 20px 25px;
+}
+
+.services-section .service-box .service-list ul li {
+    font-size: 12pt;
+    color: #919b9f;
+    margin-bottom: 20px;
+}
+
+.services-section .service-box .service-list ul li:last-child {
+    margin-bottom: 0;
+}
+
+.services-section .service-box .service-list ul li i {
+    font-size: 15pt;
+    color: #28ea89;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.services-section .service-box .service-list a.learn-more {
+    font-size: 12pt;
+    color: #fff;
+    font-weight: 700;
+    background: #28ea89;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 140px;
+}
+
+.watch-video {
+    background: #2a2d3c;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.watch-video h3 {
+    font-size: 25pt;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+    line-height: 30pt;
+}
+
+.watch-video a {
+    font-size: 12pt;
+    color: #fff;
+    display: block;
+    background: #28ea89;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-weight: 700;
+    width: 160px;
+    padding: 12px 30px;
+}
+
+.blog-section {
+    background: #28ea89;
+    padding: 40px 0px;
+}
+
+.blog-section p {
+    font-size: 25pt;
+    color: #2a2d3c;
+    margin-bottom: 10px;
+    line-height: 30pt;
+}
+
+.blog-section span {
+    font-size: 15pt;
+    color: #fff;
+    display: block;
+}
+
+.blog-section p, .blog-section span {
+    text-align: center;
+}
+
+.blog-section .blog-container {
+    margin: 50px 0px 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog-section .blog-container .blog-box {
+    flex: 1;
+}
+
+.blog-section .blog-container .blog-box img {
+    width: 100%;
+}
+
+.blog-section .blog-container .blog-1 {
+    margin-right: 20px;
+}
+
+.blog-section .blog-container .blog-content {
+    background: #fff;
+    padding: 20px 10px 10px 10px;
+}
+
+.blog-section .blog-container .blog-content h3 {
+    font-size: 20pt;
+    color: #2a2d3c;
+    font-weight: 700;
+}
+
+.blog-section .blog-container .blog-content p {
+    font-size: 12pt;
+    color: #777777;
+    line-height: 25pt;
+    text-align: left;
+    margin: 20px 0px 30px 0px;
+}
+
+.blog-section .blog-container .blog-content a {
+    font-size: 12pt;
+    color: #28ea89;
+    background: #2a2d3c;
+    border-radius: 5px;
+    display: block;
+    padding: 15px 20px;
+    width: 140px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.blog-section a.view-more {
+    display: block;
+    margin: 0 auto;
+    width: 40px;
+    height: 40px;
+}
+
+.blog-section a.view-more i {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: #28ea89;
+    text-align: center;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interest-section {
+    background: #2a2d3c;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+.interest-section p, .interest-section span {
+    color: #fff;
+}
+
+.interest-section p {
+    font-size: 25pt;
+    line-height: 34pt;
+}
+
+.interest-section span {
+    font-size: 15pt;
+    display: block;
+    margin: 15px 0px 40px 0px;
+    line-height: 22pt;
+}
+
+.interest-section ul li:first-child {
+    margin-right: 30px;
+}
+
+.interest-section ul li {
+    display: inline-flex;
+}
+
+.interest-section ul li a {
+    display: block;
+    font-size: 12pt;
+    color: #fff;
+    background: #28ea89;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 15px 20px;
+}
+
+.interest-section ul li a.opt-2 {
+    color: #28ea89;
+    background: #fff;
+}
+
+.footer-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 70px 0px;
+}
+
+.footer-section .about-section {
+    width: 40%;
+}
+
+.footer-section .about-section p {
+    font-size: 12pt;
+    color: #777777;
+    line-height: 25pt;
+    margin-top: 25px;
+}
+
+.footer-section .about-section p span {
+    color: #28ea89;
+}
+
+.footer-section .social-section {
+    text-align: right;
+    width: 40%;
+}
+
+.footer-section .social-section ul {
+    margin-bottom: 25px;
+}
+
+.footer-section .social-section ul li {
+    display: inline-flex;
+    margin-right: 30px;
+}
+
+.footer-section .social-section ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-section .social-section ul li a i {
+    color: #292c34;
+    font-size: 16pt;
+}
+
+.footer-section .social-section a.site,
+.footer-section .social-section a.mail {
+    font-size: 12pt;
+    color: #2a2d3c;
+    display: block;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.copyright-section {
+    background: #292c34;
+    padding: 40px 0px;
+}
+
+.copyright-section .inner-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-section .inner-text p {
+    font-size: 15pt;
+    color: #fff;
+}
+
+.copyright-section .inner-text a.unsub-btn {
+    font-size: 15pt;
+    display: block;
+    color: #28ea89;
+}
+
